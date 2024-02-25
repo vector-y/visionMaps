@@ -39,8 +39,11 @@ class Instruction(BaseModel):
 
 @app.post("/get_audio/")
 async def get_audio(request: Instruction):
-    response = await text_to_voice(request.direction, f'audio_files/step{request.step}.mp3')
+    if DEMO:
+        return FileResponse(f'audio_files/step{request.step}.mp3', media_type="audio/mpeg", filename=f'audio_files/step{request.step}.mp3')
 
+    await text_to_voice(request.direction, f'audio_files/step{request.step}.mp3')
+    print(f'audio_files/step{request.step}.mp3')
     # return Response(content=response.text, media_type="audio/mpeg")
     return FileResponse(f'audio_files/step{request.step}.mp3', media_type="audio/mpeg", filename=f'audio_files/step{request.step}.mp3')
 
