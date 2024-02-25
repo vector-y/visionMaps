@@ -6,7 +6,7 @@ import { ClipboardDocumentIcon } from '@heroicons/react/16/solid';
 
 const Explainer = () => {
     return (
-        <div className='mx-auto px-48 font-inter'>
+        <div className='mx-auto px-12 font-inter'>
             <ul className="grid gap-x-3.5 gap-y-4 p-0 lg:-mx-32 lg:grid-cols-2">
                 <li className='not-prose bg-gray-200 m-0 flex flex-col rounded-2xl p-8'>
                     <div className="my-auto self-start">

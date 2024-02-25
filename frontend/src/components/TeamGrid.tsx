@@ -3,24 +3,29 @@ import { motion } from "framer-motion"
 
 const teamMembers = [
   {
-    name: 'Danh Tran',
-    title: 'Co-Marketing Director',
-    imageSrc: '/team/danh.jpg',
+    name: 'Bryan',
+    title: 'Product Designer',
+    imageSrc: '/team/bryan.png',
   },
   {
-    name: 'Victor Tran',
+    name: 'Victor',
     title: 'Product Engineer',
     imageSrc: '/team/victor.jpg',
   },
   {
-    name: 'Evelyn Kim',
-    title: 'Frontend Developer',
-    imageSrc: '/team/evelyn.png',
+    name: 'Sam',
+    title: 'Backend Developer',
+    imageSrc: '/team/sam.jpg',
   },
   {
-    name: 'Jocelyn Park',
-    title: 'Project Manager',
-    imageSrc: '/team/jocelyn.jpg',
+    name: 'Marcus',
+    title: 'AI Researcher',
+    imageSrc: '/team/marcus.jpg',
+  },
+  {
+    name: 'Nate',
+    title: 'AI Engineer',
+    imageSrc: '/team/nate.jpeg',
   },
 ];
 

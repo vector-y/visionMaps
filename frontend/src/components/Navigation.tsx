@@ -39,31 +39,11 @@ export default function Navigation() {
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center lg:space-x-4">
                         {navItems.map((item) => {
-                            if (item.name === 'Featured') {
-                                return (
-                                    <DropdownMenu key={item.name}>
-                                        <DropdownMenuTrigger asChild>
-                                            <button className="text-black block px-3 py-2 rounded-lg hover:bg-blue-500 transition-all">{item.name}</button>
-                                        </DropdownMenuTrigger>
-                                        <DropdownMenuPortal>
-                                            <DropdownMenuContent className="bg-white rounded-lg">
-                                                {/* Add DropdownMenuItems here */}
-                                                <DropdownMenuItem className="text-black px-4 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
-                                                    <Link href='/shopAnchovy' className="text-black block">
-                                                        Anchovy Studio
-                                                    </Link>
-                                                </DropdownMenuItem>
-                                            </DropdownMenuContent>
-                                        </DropdownMenuPortal>
-                                    </DropdownMenu>
-                                );
-                            } else {
-                                return (
-                                    <Link key={item.name} href={item.href} className="text-black block px-3 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition-all">
-                                        {item.name}
-                                    </Link>
-                                );
-                            }
+                            return (
+                                <Link key={item.name} href={item.href} className="text-black font-bold block px-3 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition-all">
+                                    {item.name}
+                                </Link>
+                            );
                         })}
 
                     </div>

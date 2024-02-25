@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import Explainer from "~/components/Explainer";
 import Footer from "~/components/Footer";
 import Hero from "~/components/Hero";
 import Navigation from "~/components/Navigation";
+import VisionMap from "~/components/VisionMap";
 
 export default function Home() {
   return (
@@ -17,7 +17,6 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <Navigation />
           <Hero />
-          <Explainer />
           <Footer />
         </div>
       </main>
