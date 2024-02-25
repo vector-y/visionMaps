@@ -27,7 +27,6 @@ const VideoRecorder: React.FC = () => {
   return (
     <div className="font-inter flex flex-col pt-32 items-center justify-center p-4">
       <video ref={videoRef} className="w-full max-w-4xl rounded-2xl" autoPlay playsInline />
-      {/* <div className="bg-about bg-cover object-top py-80 mx-auto text-center max-w-screen-full bg-[#FFFFFF]" /> */}
     </div>
   );
 };

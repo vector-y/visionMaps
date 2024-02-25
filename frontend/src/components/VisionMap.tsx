@@ -1,18 +1,19 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { motion } from "framer-motion"
-import Image from "next/image";
-import { ExternalLinkIcon } from '@radix-ui/react-icons';
-import { MapIcon } from '@heroicons/react/16/solid';
 import VideoRecorder from './VideoRecorder';
+import Card from './Instructions';
+import Ingredients from './Ingredients';
 
 const VisionMap = () => {
     return (
-        <section className="w-full">
-            <div className="bg-city bg-cover bg-center text-center bg-[#FFFFFF]">
+        // This is the outer container that takes up the full width and height
+        <div className="flex justify-center items-center w-full h-full bg-[#FFFFFF]">
+            {/* This is the inner container that groups the VideoRecorder and Card components together */}
+            <div className="mx-auto flex flex-row justify-center items-center space-y-4"> {/* Adjusted for vertical layout and spacing */}
+                <Ingredients/>
                 <VideoRecorder />
+                <Card />
             </div>
-        </section>
+        </div>
     );
 }
 
