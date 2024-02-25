@@ -17,7 +17,7 @@ const Hero = () => {
                     transition={{ type: "spring", stiffness: 400, damping: 15 }}>
                     <a href="/" className="font-inter inline-flex justify-center items-center py-4 px-10 text-base font-medium text-center rounded-xl bg-blue-500 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                         <MapIcon className="h-6 w-6 text-white" />
-                        <p className="font-bold text-xl ml-2 text-white">Map</p>                
+                        <p className="font-bold text-xl ml-2 text-white">Map Vision</p>                
                     </a>
                     </motion.button>
                 </div>

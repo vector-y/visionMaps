@@ -8,7 +8,6 @@ import { DropdownMenu, DropdownMenuPortal, DropdownMenuTrigger, DropdownMenuCont
 
 const navItems = [
     { name: 'About', href: '/about' },
-    { name: 'Shop', href: '/shop' },
 ]
 
 export default function Navigation() {
