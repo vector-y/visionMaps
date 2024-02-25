@@ -1,0 +1,65 @@
+{
+  "recipe_name": "Classic Beef Sub Sandwich",
+  "ingredients": [
+    {
+      "name": "Sub roll",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "name": "Beef",
+      "quantity": 150,
+      "unit": "grams"
+    },
+    {
+      "name": "Mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "name": "Lettuce",
+      "quantity": 1,
+      "unit": "handful"
+    },
+    {
+      "name": "Tomato",
+      "quantity": 2,
+      "unit": "slices"
+    },
+    {
+      "name": "Red onion",
+      "quantity": 2,
+      "unit": "rings"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "direction": "Slice the sub roll horizontally."
+    },
+    {
+      "step": 2,
+      "direction": "Spread mayonnaise on each side of the sub roll."
+    },
+    {
+      "step": 3,
+      "direction": "Layer the beef on the bottom half of the sub roll."
+    },
+    {
+      "step": 4,
+      "direction": "Top the beef with a handful of lettuce."
+    },
+    {
+      "step": 5,
+      "direction": "Add tomato slices and red onion rings."
+    },
+    {
+      "step": 6,
+      "direction": "Close the sandwich with the top half of the sub roll."
+    },
+    {
+      "step": 7,
+      "direction": "Serve the sandwich immediately."
+    }
+  ]
+}
