@@ -28,7 +28,7 @@ const Instructions: React.FC = () => {
         setCurrentText(textUpdates[nextIndex] as TextUpdate);
         return nextIndex;
       });
-    }, 5000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, []);
