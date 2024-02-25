@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ClipboardDocumentIcon } from '@heroicons/react/16/solid';
 
-// Define the type for your text updates
 type TextUpdate = {
   title: string;
   description: string;
@@ -30,21 +29,21 @@ const Instructions: React.FC = () => {
         return nextIndex;
       });
     }, 5000);
-  
+
     return () => clearInterval(interval);
   }, []);
-  
 
   return (
-    <div className="font-inter bg-gray-200 rounded-2xl p-20">
+    <div className="font-inter bg-gray-200 rounded-2xl p-20 w-72 mx-auto">
       <div className="flex flex-col items-center space-y-2">
         <ClipboardDocumentIcon className="h-6 w-6 text-black" />
-        <h3 className="font-bold text-xl text-center">{currentText.title}</h3>
-        <p className="text-secondary text-sm text-center">
-          {currentText.description}
-        </p>
+        <h3 className="font-bold text-2xl text-center">{currentText.title}</h3>
       </div>
+      <p className="text-secondary text-lg text-center mt-2">
+        {currentText.description}
+      </p>
     </div>
+
   );
 };
 
