@@ -22,7 +22,7 @@ git clone https://github.com/vector-y/visionMaps.git
 cd visionMaps
 cd frontend && npm install & npm run dev
 # Follow specific instructions for setting up the backend and frontend
-
+```
 ## Usage
 Once installed, you can run visionMaps to view visual instructions for a variety of furniture assembly tasks. The app will provide you with a list of hardware required for the assembly (screws, nails, etc.) and will update in real-time as you use each item.
 
